@@ -18,34 +18,6 @@ The chatbot is designed to improve the user experience for both:
 📸 Image processing capabilities:
 Users can upload car images, and the chatbot will extract license plate information, vehicle model, registration year, color, and more.
 
-📂 Project Structure
-
-📦 MAPFRE_RAG_Chatbot
- ┣ 📂 src/                    # Main source code
- ┃ ┣ 📜 app.py                # Main chatbot script
- ┃ ┣ 📜 avatar.py             # Voice-enabled avatar module
- ┃ ┣ 📂 chatbot/              # Core chatbot logic
- ┃ ┣ 📂 llm/                  # Large Language Model integration
- ┃ ┣ 📂 processing/           # Data preprocessing (text & images)
- ┃ ┃ ┣ 📜 preprocessing_images.py
- ┃ ┃ ┣ 📜 preprocessing_text.py
- ┃ ┣ 📂 rag/                  # Retrieval-Augmented Generation module
- ┃ ┃ ┣ 📂 embeddings/
- ┃ ┃ ┣ 📂 nodes/
- ┃ ┃ ┗ 📜 rag_pipeline.py
- ┃ ┣ 📜 prompt.py             # Prompt engineering module
- ┃ ┣ 📜 utils.py              # Utility functions
- ┃ ┣ 📜 voice_text.py         # Voice-to-text and text-to-voice conversion
- ┣ 📂 data/                   # Data storage
- ┃ ┣ 📂 embeddings/           # Precomputed embeddings (excluded from GitHub)
- ┃ ┣ 📂 evaluation/           # Model evaluation data
- ┣ 📂 public/                 # Static files and example assets
- ┣ 📜 .gitignore              # Ignored files and directories
- ┣ 📜 Dockerfile              # Deployment configuration
- ┣ 📜 pyproject.toml          # Poetry configuration
- ┣ 📜 README.md               # Documentation
- ┣ 📜 requirements.txt        # Python dependencies
- ┗ 📜 chainlit.md             # Chainlit usage guide
 
 🔧 Installation & Setup
 
