@@ -1,0 +1,33 @@
+# Archivos sensibles 
+google_api_key.txt
+Enlaces_con_recursos.txt
+
+# Entorno virtual y dependencias
+/venv
+poetry.lock
+pyproject.toml
+
+# Cachés y archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+/.chainlit/translations
+/src/__pycache__/
+
+# Archivos de bases de datos vectoriales y embeddings
+/embeddings/
+/public/
+/RAG/embeddings/
+/RAG/nodes/
+
+# Evaluaciones y resultados
+/evaluation/
+/batch_evaluation_results.csv
+/metric_results.csv
+/model_scores.csv
+/q&a.pkl
+
+# Configuración de VS Code
+/.vscode/
+
+# Archivos de logs y depuración (si generas logs, puedes añadir aquí un patrón tipo *.log)
